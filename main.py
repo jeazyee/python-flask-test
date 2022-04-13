@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hi, from Python Flask!'
+    return '<h1>Hi, from Python Flask v2!</h1>'
 
 
 @app.route('/webhook', methods=['POST'])
